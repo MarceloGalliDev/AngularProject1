@@ -27,9 +27,14 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
 
 ## angular CLI commands
-
 Para criar um projeto na raiz <br/>
 `ng new {nome_projeto} --directory=.`
+
+Para criar um workspace para varios projetos <br/>
+`ng new my-workspace --no-create-application`
+`cd my-workspace`
+`ng generate application my-app`
+`ng generate library my-lib`
 
 Startando projeto no localhost <br/>
 `ng s` ou `ng serve`
